@@ -27,7 +27,7 @@ See [types.go](https://github.com/cryptix/gombrella/blob/master/types.go) for a 
 
 ## Usage
 ```
-gumbrealla -u email/login -p password
+gumbrealla <email>
 ```
 
 

@@ -9,6 +9,7 @@ import (
 
 	"github.com/codegangsta/cli"
 	"github.com/cryptix/go/logging"
+	"golang.org/x/crypto/ssh/terminal"
 )
 
 var log = logging.Logger("gombrella")
@@ -20,26 +21,25 @@ func main() {
 	app.Name = "gombrella"
 	app.Action = run
 	app.Flags = []cli.Flag{
-		cli.StringFlag{Name: "user,u", Usage: "which user to log in"},
-		cli.StringFlag{Name: "pass,p", Usage: "password for that user"},
 	}
 
 	app.Run(os.Args)
 }
 
 func run(ctx *cli.Context) {
-	u := ctx.String("user")
+	u := ctx.Args().First()
 	if len(u) == 0 {
 		logging.CheckFatal(errors.New("no user supplied"))
 	}
 
-	p := ctx.String("pass")
-	if len(p) == 0 {
-		logging.CheckFatal(errors.New("no password supplied"))
-	}
-
-	colls, client, err := loginAndGetCollections(u, p)
+	log.Notice("Enter Password:")
+	pw, err := terminal.ReadPassword(0)
 	logging.CheckFatal(err)
+
+	colls, client, err := loginAndGetCollections(u, string(pw))
+	logging.CheckFatal(err)
+
+	log.Notice("Logged in.")
 
 	// each collection is requested asynchronously with a  worker
 	workerCnt := 3 * runtime.NumCPU()
