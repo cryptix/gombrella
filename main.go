@@ -19,8 +19,10 @@ func main() {
 
 	app := cli.NewApp()
 	app.Name = "gombrella"
+	app.Version = "0.0.2"
 	app.Action = run
 	app.Flags = []cli.Flag{
+		cli.StringFlag{Name: "file,f", Value: "bookmarks.csv", Usage: "csv filename to write bookmarks to"},
 	}
 
 	app.Run(os.Args)
@@ -31,6 +33,15 @@ func run(ctx *cli.Context) {
 	if len(u) == 0 {
 		logging.CheckFatal(errors.New("no user supplied"))
 	}
+
+	fname := ctx.String("file")
+	if len(fname) == 0 {
+		logging.CheckFatal(errors.New("filename can't be empty"))
+	}
+
+	// prepare the output file
+	file, err := os.Create(fname)
+	logging.CheckFatal(err)
 
 	log.Notice("Enter Password:")
 	pw, err := terminal.ReadPassword(0)
@@ -50,10 +61,6 @@ func run(ctx *cli.Context) {
 
 	bookmarks := mergeWorkers(workerChans...)
 
-	// prepare the output file
-	file, err := os.Create("bookmarks.csv")
-	logging.CheckFatal(err)
-
 	bookmarkCsv := csv.NewWriter(file)
 
 	for a := range bookmarks {
@@ -66,7 +73,7 @@ func run(ctx *cli.Context) {
 	}
 	bookmarkCsv.Flush()
 	logging.CheckFatal(file.Close())
-	log.Notice("Done.")
+	log.Notice("Done. Written to ", fname)
 }
 
 func mergeWorkers(cs ...<-chan *Bookmark) <-chan *Bookmark {
