@@ -12,6 +12,8 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 )
 
+var VERSION = "0.0.2-dev"
+
 var log = logging.Logger("gombrella")
 
 func main() {
@@ -19,7 +21,7 @@ func main() {
 
 	app := cli.NewApp()
 	app.Name = "gombrella"
-	app.Version = "0.0.2"
+	app.Version = VERSION
 	app.Action = run
 	app.Flags = []cli.Flag{
 		cli.StringFlag{Name: "file,f", Value: "bookmarks.csv", Usage: "csv filename to write bookmarks to"},

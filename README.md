@@ -37,55 +37,50 @@ if you have go installed you can just run:
 
 `go get github.com/cryptix/gombrella`
 
-Pre-build binaries are hosted at [bintray.com](https://bintray.com/cryptix/golang/gombrella/0.0.1-snapshot/view/files) 
+Pre-build binaries are hosted at [bintray.com](https://bintray.com/cryptix/golang/gombrella)
 
 
-## gombrella downloads (version 0.0.1-snapshot)
+## gombrella downloads (version 0.0.2-snapshot)
 
 ### Darwin (Apple Mac)
 
- * [gombrella\_0.0.1-snapshot\_darwin\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_darwin_386.zip?direct)
- * [gombrella\_0.0.1-snapshot\_darwin\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_darwin_amd64.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_darwin\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_darwin_386.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_darwin\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_darwin_amd64.zip?direct)
 
 ### FreeBSD
 
- * [gombrella\_0.0.1-snapshot\_freebsd\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_freebsd_386.zip?direct)
- * [gombrella\_0.0.1-snapshot\_freebsd\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_freebsd_amd64.zip?direct)
- * [gombrella\_0.0.1-snapshot\_freebsd\_arm.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_freebsd_arm.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_freebsd\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_freebsd_386.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_freebsd\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_freebsd_amd64.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_freebsd\_arm.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_freebsd_arm.zip?direct)
 
 ### Linux
 
- * [gombrella\_0.0.1-snapshot\_amd64.deb](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_amd64.deb?direct)
- * [gombrella\_0.0.1-snapshot\_armhf.deb](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_armhf.deb?direct)
- * [gombrella\_0.0.1-snapshot\_i386.deb](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_i386.deb?direct)
- * [gombrella\_0.0.1-snapshot\_linux\_386.tar.gz](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_linux_386.tar.gz?direct)
- * [gombrella\_0.0.1-snapshot\_linux\_amd64.tar.gz](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_linux_amd64.tar.gz?direct)
- * [gombrella\_0.0.1-snapshot\_linux\_arm.tar.gz](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_linux_arm.tar.gz?direct)
+ * [gombrella\_0.0.2-snapshot\_amd64.deb](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_amd64.deb?direct)
+ * [gombrella\_0.0.2-snapshot\_armhf.deb](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_armhf.deb?direct)
+ * [gombrella\_0.0.2-snapshot\_i386.deb](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_i386.deb?direct)
+ * [gombrella\_0.0.2-snapshot\_linux\_386.tar.gz](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_linux_386.tar.gz?direct)
+ * [gombrella\_0.0.2-snapshot\_linux\_amd64.tar.gz](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_linux_amd64.tar.gz?direct)
+ * [gombrella\_0.0.2-snapshot\_linux\_arm.tar.gz](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_linux_arm.tar.gz?direct)
 
 ### MS Windows
 
- * [gombrella\_0.0.1-snapshot\_windows\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_windows_386.zip?direct)
- * [gombrella\_0.0.1-snapshot\_windows\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_windows_amd64.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_windows\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_windows_386.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_windows\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_windows_amd64.zip?direct)
 
 ### NetBSD
 
- * [gombrella\_0.0.1-snapshot\_netbsd\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_netbsd_386.zip?direct)
- * [gombrella\_0.0.1-snapshot\_netbsd\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_netbsd_amd64.zip?direct)
- * [gombrella\_0.0.1-snapshot\_netbsd\_arm.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_netbsd_arm.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_netbsd\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_netbsd_386.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_netbsd\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_netbsd_amd64.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_netbsd\_arm.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_netbsd_arm.zip?direct)
 
 ### OpenBSD
 
- * [gombrella\_0.0.1-snapshot\_openbsd\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_openbsd_386.zip?direct)
- * [gombrella\_0.0.1-snapshot\_openbsd\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_openbsd_amd64.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_openbsd\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_openbsd_386.zip?direct)
+ * [gombrella\_0.0.2-snapshot\_openbsd\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.2-snapshot_openbsd_amd64.zip?direct)
 
 ### Other files
 
- * [gombrella\_0.0.1-snapshot\_solaris\_amd64.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_solaris_amd64.zip?direct)
-
-### Plan 9
-
- * [gombrella\_0.0.1-snapshot\_plan9\_386.zip](https://dl.bintray.com//content/cryptix/golang/gombrella_0.0.1-snapshot_plan9_386.zip?direct)
-
+[ssh/terminal ReadPassword()](https://golang.org/x/crypto/ssh/terminal) doesn't work on Solaris and Plan9... if there is demand I might look for another implementation.
 
 
 Generated by [goxc](https://github.com/laher/goxc)
