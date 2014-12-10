@@ -1,0 +1,13 @@
+ {
+    "ConfigVersion": "0.9",
+    "PackageVersion": "0.0.1",
+    "PrereleaseInfo": "snapshot",
+        "TaskSettings" : {
+        "bintray" : {
+            "package" : "gombrella",
+            "subject": "cryptix",
+            "repository": "golang",
+            "downloadspage": "bintray.md"
+        }
+    }
+}
